@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Rick and Morty</title>
+
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="assets/img/rick-and-morty-icon-png-26.png" alt="" width="100px">
+                <h1>The Rick and Morty</h1>
+                <ul>
+                    <li>Docs</li>
+                    <li>Infos</li>
+                    <li>Suport US</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <aside>
+                <div id="containerPersonagens">
+
+                </div>
+                <button id="paginacao">Carregar mais...</button>
+            </aside>
+
+            <section class="sectionPerson">
+                <div class="pesquisar">
+                    <input type="text" placeholder="Pesquise pelo nome do Personagem" id="personagemName"> 
+                    <button class="getPesquisa" id="pesquisar">Pesquisar</button>
+                </div>
+                <div class="mainPersonagem">
+                    <img src="assets/img/rick-and-morty-icon-png-26.png" alt="" class="vidaPersonagem">
+                    <div class="containerInformações">
+                        <h1 id="personagemFoto"></h1>
+                        
+                        <span><p id="especie"></p></span>
+
+                        <div class="localizacao">
+                            <span class="descricao"><p>Última Localização:</p></span>
+                            <p id="location"></p>
+                        </div>
+
+                        <div>
+                            <span class="descricao"><p>Criado em:</p></span>
+                            <p id="criadoDt">Visto por ultimo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+
+    <script src="assets/script.js"></script>
+</html>
